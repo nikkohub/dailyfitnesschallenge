@@ -116,7 +116,7 @@ p {
 }
 
 .copyr {
-    margin-top: 0;
+    margin: 0;
 }
 
 
@@ -129,9 +129,11 @@ p {
     text-align: center;
     display: flex;
     align-items: center;
-
+    margin-top: 0;
 }
 
 .copyr {
-    margin: 0; /* Remove default margin for the <p> element */
+    margin-top: 0; /* Remove default margin for the <p> element */
+    color: rgba(147, 145, 145, 0.579);
+    font-size: 0.8em;
 }
