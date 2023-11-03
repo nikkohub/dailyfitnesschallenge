@@ -116,7 +116,7 @@ p {
 }
 
 .copyr {
-    margin-top: 2em;
+    margin-top: 0;
 }
 
 
@@ -133,5 +133,5 @@ p {
 }
 
 .copyr {
-    margin-top: 2em; /* Remove default margin for the <p> element */
+    margin: 0; /* Remove default margin for the <p> element */
 }
