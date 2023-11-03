@@ -67,7 +67,7 @@ p {
 }
 
 .bottom-social-icons {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     background: #fff; /* Background color for the icons container */
@@ -76,7 +76,7 @@ p {
     margin-top: 0;
 }
 
-.social-icons a {
+.bottom-container a {
     margin-right: 10px; /* Add some space between icons */
 }
 
@@ -122,6 +122,7 @@ p {
     margin: 0 5px; /* Add some horizontal space between buttons */
     margin-bottom: 0;
     margin-top: 0;
+    
 }
 
 
