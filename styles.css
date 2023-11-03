@@ -129,6 +129,8 @@ p {
     text-align: center;
     display: flex;
     align-items: center;
+    margin-top: 0;
+
 }
 
 .copyr {
