@@ -7,7 +7,6 @@ body {
     background-color: #faf0e6 !important;
     font-family: 'Dancing Script', cursive;
     position: static;
-
 }
 
 .challenge-text {
@@ -55,6 +54,7 @@ p {
 
 #generate-challenge {
     margin-top: 10px; /* Add some top margin for the button */
+    margin-bottom: 0;
 }
 
 .middle-social-icons {
@@ -71,7 +71,9 @@ p {
     bottom: 0;
     left: 0;
     background: #fff; /* Background color for the icons container */
-    padding: 10px; /* Adjust padding as needed */
+    padding-bottom:  0%; /* Adjust padding as needed */
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .social-icons a {
@@ -110,16 +112,17 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 0em;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .btn {
     margin: 0 5px; /* Add some horizontal space between buttons */
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
-.copyr {
-    margin: 0;
-}
 
 
 .cr {
@@ -135,6 +138,7 @@ p {
 }
 
 .copyr {
+    margin: 0;
     margin-top: 0; /* Remove default margin for the <p> element */
     color: rgba(147, 145, 145, 0.579);
     font-size: 0.8em;
