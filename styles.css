@@ -129,10 +129,9 @@ p {
     text-align: center;
     display: flex;
     align-items: center;
-    margin-top: 0;
 
 }
 
 .copyr {
-    margin-top: 0; /* Remove default margin for the <p> element */
+    margin-top: 10; /* Remove default margin for the <p> element */
 }
