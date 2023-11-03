@@ -6,6 +6,8 @@ body {
     margin: 0;
     background-color: #faf0e6 !important;
     font-family: 'Dancing Script', cursive;
+    position: static;
+
 }
 
 .challenge-text {
