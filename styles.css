@@ -3,7 +3,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow-y: hidden;
     margin: 0;
     background-color: #faf0e6 !important;
     font-family: 'Dancing Script', cursive;
