@@ -128,8 +128,8 @@ p {
 
 
 .cr {
-    position: relative;
-    overflow: auto;
+    position: fixed;
+    overflow: hidden;
     left: 50%;
     transform: translateX(-50%);
     bottom: 1px; /* Adjust the distance from the bottom as needed */
