@@ -105,7 +105,7 @@ p {
 
 
 .bottom-container {
-    position:absolute  ;
+    position:fixed;
     left: 50%;
     transform: translateX(-50%);
     bottom: 10px; /* Adjust the distance from the bottom as needed */
