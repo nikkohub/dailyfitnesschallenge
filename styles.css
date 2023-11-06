@@ -105,11 +105,11 @@ p {
 
 
 .bottom-container {
-    position: absolute;
+    position:fixed  ;
     overflow: auto;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
     display: flex;
     align-items: center;
     justify-content: center;
