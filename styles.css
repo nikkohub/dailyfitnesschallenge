@@ -83,7 +83,7 @@ p {
 /* Media Queries for Tablet and Phone Screens */
 @media screen and (max-width: 768px) {
     body {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     h1 {
@@ -91,15 +91,15 @@ p {
     }
 
     p {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     #generate-challenge {
-        font-size: 16px;
+        font-size: 13px;
     }
 
     .social-icons a {
-        margin-right: 5px; /* Reduce space between icons on smaller screens */
+        margin-right: 3px; /* Reduce space between icons on smaller screens */
     }
 }
 
@@ -128,7 +128,7 @@ p {
 
 
 .cr {
-    position: absolute;
+    position: relative;
     overflow: auto;
     left: 50%;
     transform: translateX(-50%);
