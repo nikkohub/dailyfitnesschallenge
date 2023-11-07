@@ -76,6 +76,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Retrieve the challenge from localStorage and display it
     const storedChallenge = localStorage.getItem('dailyChallenge');
     if (storedChallenge) {
-        challengeText.textContent = storedChallenge;
+        challengeText.innerHTML = storedChallenge;
     }
 });
