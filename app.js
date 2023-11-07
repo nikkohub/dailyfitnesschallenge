@@ -54,7 +54,7 @@ function createDailyChallenge() {
         exercise2 = getRandomElement(exerciseList);
     }
 
-    const challengeText = `Take <u>${stepsChallenge}</u> <br>and do <u>${exercise1}</u> <br>and <u>${exercise2}</u>.`;
+    const challengeText = `Take <u>${stepsChallenge}</u> <br> do <u>${exercise1}</u> <br>and <u>${exercise2}</u>`;
     
 
     // Store the challenge in localStorage

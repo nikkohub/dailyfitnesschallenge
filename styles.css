@@ -200,5 +200,11 @@ p {
 
 
 u {
-    text-decoration: underline;
+    text-decoration: none;
 }
+br {
+    content: "";
+    margin: 1em;
+    display: block;
+    font-size: 24%;
+  }
