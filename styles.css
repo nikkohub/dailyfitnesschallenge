@@ -1,5 +1,5 @@
 body {
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -55,6 +55,7 @@ p {
 #generate-challenge {
     margin-top: 10px; /* Add some top margin for the button */
     margin-bottom: 0;
+    padding-bottom: 1em;
 }
 
 .middle-social-icons {
@@ -95,7 +96,7 @@ p {
     }
 
     #generate-challenge {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .social-icons a {
@@ -105,20 +106,19 @@ p {
 
 
 .bottom-container {
-    position:relative;
+    position:absolute;
     left: 50%;
     transform: translateX(-50%);
     bottom: 10px; /* Adjust the distance from the bottom as needed */
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0em;
+    padding-top: 4em;
     margin-bottom: 0;
-    margin-top: 0;
 }
 
 .btn {
-    margin: 0 5px; /* Add some horizontal space between buttons */
+    margin: 0 5px; /* Add some horizontal space betaween buttons */
     margin-bottom: 0;
     margin-top: 0;
     
@@ -126,21 +126,4 @@ p {
 
 
 
-.cr {
-    position: absolute;
-    left: 15%;
-    transform: translateX(-50%);
-    bottom: 1px; /* Adjust the distance from the bottom as needed */
-    padding: 1px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    margin-top: 0;
-}
 
-.copyr {
-    margin: 0;
-    margin-top: 0; /* Remove default margin for the <p> element */
-    color: rgba(147, 145, 145, 0.579);
-    font-size: 0.8em;
-}
