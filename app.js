@@ -54,7 +54,7 @@ function createDailyChallenge() {
         exercise2 = getRandomElement(exerciseList);
     }
 
-    const challengeText = `Today's challenge is to take ${stepsChallenge} and do ${exercise1} and ${exercise2}.`;
+    const challengeText = `Today's challenge is to take <u>${stepsChallenge}</u> and do <u>${exercise1}</u> and <u>${exercise2}</u>.`;
     
 
     // Store the challenge in localStorage
@@ -68,8 +68,9 @@ const generateChallengeButton = document.getElementById('generate-challenge');
 
 generateChallengeButton.addEventListener('click', () => {
     const challenge = createDailyChallenge();
-    challengeText.textContent = challenge;
+    challengeText.innerHTML = challenge; // Use innerHTML instead of textContent
 });
+
 
 document.addEventListener('DOMContentLoaded', () => {
     // Retrieve the challenge from localStorage and display it
